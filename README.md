@@ -1,7 +1,7 @@
 # SW Workshop
 
  * The "start" folder contains the base site from which we will work.
- * The "finished" folder contains the completed site.
+ * The "finished" folder contains the [completed site](https://marcoscaceres.github.io/sw-workshop/finished/).
    If you get stuck, you can see how things were done there.
 
 ## Before we start (pre-reqs)
@@ -11,10 +11,10 @@ Grab:
  * [Firefox Nightly](https://nightly.mozilla.org/)
  * [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
 
-In Firefox, go to "about:config", and type "serviceworkers". 
+In Firefox, go to "[about:config](about:config)", and type "serviceworkers". 
 Make sure everything is set to "true".
 
-Also enable "devtools.debugger.workers" in about:config.
+Also enable "`devtools.debugger.workers`" in [about:config](about:config).
 
 ## Start serving
 
@@ -31,9 +31,9 @@ python -m SimpleHTTPServer
  * In firefox, go to `about:serviceworkers`
  * In chrome, go to `about:serviceworker-internals`
 
-I suggest you bookmark those! 
+I suggest you bookmark those or "pin" them!
 
 ## Files
 
- * registration.js (client)
- * sw.js (worker)
+ * [registration.js](js/registration.js) (client registration)
+ * [sw.js](sw.js) (worker)
