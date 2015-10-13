@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-startup-image" href="images/splash.png">
+  <link rel="apple-touch-startup-image" href="images/splash2x.png" media="(device-width: 414px)">
+  <link rel="apple-touch-icon" href="images/battery_icon.png">
+  <meta name="application-name" content="WebMob">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="favicon.ico" rel="icon" sizes="16x16,32x32,48x28,64x64,128x128,256x256">
+  <link href="images/webmob.svg" rel="icon" sizes="any">
+  <title>
+    W3C Web Mobile Interest Group (WebMob)
+  </title>
+</head>
+
+<body>
+  <header role="banner">
+    <div>
+      <svg id="battery" width="73.125px" height="40.125px" viewBox="0 0 195 107" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <path d="M179,81 L179,107 L0,107 L0,0 L179,0 L179,29 L195,29 L195,81 L179,81 Z M24,25 L24,83 L155,83 L155,25 L24,25 Z" stroke="white" fill="white">
+          </path>
+          <path id="batteryMeter" d="M34,34 L34,72 L105.042969,72 L67.1738281,34 L34,34 Z" id="Rectangle-4" stroke="white" fill="white">
+           <animate id="bmAnimator" attributeName="d" 
+                    to="M34,34 L34,72 L105.042969,72 L67.1738281,34 L34,34 Z"
+                    from="M34,34 L34,72 L145,72 L145,34 L34,34 Z" 
+             begin="0s" dur="1s" repeatCount="1" fill="remove"/>
+          </path>
+        </g>
+      </svg>
+    </div>
+    <h1>
+        W3C 
+        <abbr title="Web &#38; Mobile Interest Group">
+          WebMob
+        </abbr>
+      </h1>
+  </header>
+  <main role="main">
+    <section id="join">
+      <h2 class="visuallyhidden">Join our community!</h2>
+      <p>
+        Join our community of developers, browser vendors, and mobile carriers. We work together to make the web competitive on mobile.
+      </p>
+      <ul class="buttonlist fancypill">
+        <li>
+          <a href="https://github.com/w3c-webmob/">
+              GitHub
+            </a>
+        </li>
+        <li>
+          <a href="http://lists.w3.org/Archives/Public/public-web-mobile/">Mailing List
+            </a>
+        </li>
+      </ul>
+    </section>
+    <section id="publications" class="collapsable accelerated">
+      <h2 class="opener">
+          Publications
+        </h2>
+      <ul class="docslist multicol">
+        <li>
+          <a href="http://www.w3.org/Mobile/mobile-web-app-state/">
+              Standards for web applications on mobile.
+            </a>
+        </li>
+        <li>
+          <a href="https://w3c-webmob.github.io/wake-lock-use-cases/">
+              Wake lock use cases.
+            </a>
+        </li>
+        <li>
+          <a href="http://w3c-webmob.github.io/netinfo-usecases/">
+              Network information use cases.
+            </a>
+        </li>
+        <li>
+          <a href="https://github.com/w3c-webmob/installable-webapps/blob/gh-pages/ios_standalone/README.md">
+              Standalone apps on iOS.
+            </a>
+        </li>
+        <li>
+          <a href="http://w3c-webmob.github.io/installable-webapps/">
+              Use cases for installable web apps.
+            </a>
+        </li>
+        <li>
+          <a href="https://github.com/w3c-webmob/web-api-gap">
+              Web API Gap.
+            </a>
+        </li>
+        <li>
+          <a href="http://w3c-webmob.github.io/apps-taxonomy/taxonomy.html">
+            Taxonomy of Mobile Application Platforms
+            </a>
+        </li>
+        <li>
+          <a href="http://w3c-webmob.github.io/gap-analysis/">
+              Gap Analysis between Web and Native on Mobile
+            </a>
+        </li>
+        <li>
+          <a href="https://github.com/dontcallmedom/web-permissions-req">Permissions for Web APIs</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="meetings" class="collapsable accelerated">
+      <h2 class="opener" id="meetings">
+          Meetings
+        </h2>
+      <ul class="interactivelist multicol">
+        <li>
+          <a class="buttonlink" href="http://www.w3.org/Mobile/IG/teleconferences.ics">
+            <img src="images/calendar.svg" width="16" height="16" alt="Date/Time:">
+          </a>
+          Monthly on Wed. 2pm UTC
+        </li>
+        <li>
+          <a class="buttonlink" href="tel:+1-617-761-6200">
+            <img width="16" height="16" src="images/phone.svg" alt="Phone:">
+          </a>
+          +1-617-761-6200 (932662)
+        </li>
+        <li>
+          <a class="buttonlink" href="sip:zakim@voip.w3.org">
+            <img width="16" height="16" src="images/voip.svg" alt="sip:">
+          </a>
+          sip:zakim@voip.w3.org
+        </li>
+        <li>
+          <a class="buttonlink" href="irc://irc.w3.org:6665#webmob">
+            <img src="images/irc.svg" width="16" height="16" alt="IRC:">
+          </a>
+          irc.w3.org:6665#webmob
+        </li>
+        <li>
+          <a class="buttonlink" href="http://lists.w3.org/Archives/Public/public-web-mobile/">
+            <img src="images/mail.svg" width="16" height="16" alt="Mailing List Archives">
+          </a>
+          public-web-mobile@w3.org
+        </li>
+      </ul>
+    </section>
+    <section id="links" class="collapsable accelerated">
+      <h2 class="opener">
+          Useful Resources
+        </h2>
+      <ul class="linkslist multicol">
+        <li>
+          <a href="http://www.w3.org/2013/07/webmobile-ig-charter.html">
+              Our charter.
+            </a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/wiki/Mobile/">
+              Wiki.
+            </a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/2000/09/dbwg/details?group=65406&amp;public=1">
+              Group's participants.
+            </a>
+        </li>
+        <li>
+          <a href="http://www.w3.org/2004/01/pp-impl/65406/instructions">
+              Joining as a W3C member.
+            </a>
+        </li>
+        <li>
+          <a href="http://lists.w3.org/Archives/Public/public-web-mobile/">
+              Mailing list archive.
+            </a>
+        </li>
+        <li class="mail">
+          <a href="mailto:dom@w3.org">
+              Email team contact (Dominique Hazael-Massieux).
+            </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <ul class="buttonlist">
+      <li>
+        <a href="https://twitter.com/w3c_webmob">
+          <img src="images/twitter_white.svg" width="30" height="30" alt="Follow us on Twitter!">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/w3c-webmob/">
+          <img src="images/github.svg" width="30" height="30" alt="Joing us on Github!">
+        </a>
+      </li>
+      <li>
+        <a href="http://w3.org">
+          <img src="images/w3c_white.svg" height="30" width="61" alt="Join the W3C!">
+        </a>
+      </li>
+    </ul>
+    <section id="attributions">
+      <h2 class="visuallyhidden">Attributions</h2>
+      <p>
+        <small>
+          The staff contact time in this Interest Group is enabled by the HTML5Apps project, funded by the European Union through the Seventh Framework Programme (FP7/2010-2013) under grant agreement n°611327.
+            Header photo by 
+            <a href="https://www.flickr.com/photos/sinkdd/">
+              Shinichi Higashi</a>, Icons: Document and VOIP by 
+            <a href="http://www.icons8.com">
+              Icons8</a>, Mail by 
+            <a href="http://RamiMcM.in">Rami McMin</a>,
+            Calendar and Chat by Freepik, Phone by 
+            <a href="http://www.zurb.com">
+              Zurb</a>, Link and Mail made by 
+            <a href="http://www.simpleicon.com">
+              SimpleIcon</a>, from 
+            <a href="http://www.flaticon.com">
+              www.flaticon.com</a>. Header font is `nexa`, from 
+            <a href="www.fontfabric.com">
+              www.fontfabric.com</a>.
+          </small>
+      </p>
+    </section>
+  </footer>
+  <script src="js/lib/async.js"></script>
+  <script src="js/lib/swMessage.js"></script>
+  <script src="js/registration.js"></script>
+  <script src="js/accordion.js"></script>
+</body>
+</html>
+

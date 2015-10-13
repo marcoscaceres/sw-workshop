@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>battery</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <rect id="Rectangle-5" fill="#000000" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="1024"></rect>
+        <path d="M864.228041,631.368572 L864.228041,743.505381 L92.2972197,743.505381 L92.2972197,282.019283 L864.228041,282.019283 L864.228041,407.094954 L933.227444,407.094954 L933.227444,631.368572 L864.228041,631.368572 Z M195.796324,389.843137 L195.796324,639.994481 L760.728936,639.994481 L760.728936,389.843137 L195.796324,389.843137 Z" id="Rectangle-1" stroke="#FFFFFF" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        <path d="M240.998296,430.720359 L240.998296,594.804305 L548.841887,594.804305 L384.747221,430.720359 L240.998296,430.720359 Z" id="Rectangle-4" stroke="#FFFFFF" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
