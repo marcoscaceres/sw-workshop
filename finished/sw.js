@@ -71,7 +71,7 @@ self.addEventListener("activate", async(function* (ev) {
 }));
 
 self.addEventListener("fetch", function(ev) {
-  //console.log("Handling", ev.type, ev.request.url);
+  console.log("Handling", ev.type, ev.request.url);
   // Responding from cache
   ev.respondWith(SWTasks.respondFromCache(ev.request, "site_cache"));
 });
