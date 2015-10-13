@@ -1,4 +1,4 @@
-# Service Worker workshop
+# Service Workers Workshop
 
  * The "start" folder contains the base site from which we will work.
  * The "finished" folder contains the [completed site](https://marcoscaceres.github.io/sw-workshop/finished/).
