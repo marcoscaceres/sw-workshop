@@ -59,7 +59,7 @@ const SWTasks = {
 // Let's set up life cycle listeners ("install", "activate", "fetch")
 self.addEventListener("install", async(function* (ev) {
   console.log("Handling", ev.type);
-  self.skipWaiting();
+  yield self.skipWaiting();
   yield SWTasks.deleteAllCaches();
   yield SWTasks.cacheSite(ev, siteFiles);
   console.log("Successfully completed install tasks...");

@@ -2,7 +2,6 @@
 (function(){
   "use strict";
 
-
   // Service Worker registration (installation/activation).
   // if(!("serviceWorker" in navigator)){
   //   console.error("No serviceWorker support!");
