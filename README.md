@@ -1,4 +1,4 @@
-# SW Workshop
+# Service Worker workshop
 
  * The "start" folder contains the base site from which we will work.
  * The "finished" folder contains the [completed site](https://marcoscaceres.github.io/sw-workshop/finished/).
@@ -34,10 +34,12 @@ python -m SimpleHTTPServer
 
 ## Fire up browser 
 
- * In firefox, go to `about:serviceworkers`
- * In chrome, go to `about:serviceworker-internals`
+ * In Firefox, go to [about:serviceworkers](about:serviceworkers)
+ * In Chrome, go to [about:serviceworker-internals](about:serviceworker-internals)
 
 I suggest you bookmark those or "pin" them!
+
+Navigate to [http://localhost:8000](http://localhost:8000).
 
 ## Files
 We will be working on two files in the [start](start) folder:
