@@ -16,6 +16,12 @@ Make sure everything is set to "true".
 
 Also enable "`devtools.debugger.workers`" in [about:config](about:config).
 
+Git clone (or fork) this repo:
+
+```Bash
+git clone https://github.com/marcoscaceres/sw-workshop.git
+```
+
 ## Start serving
 
 In the terminal, got to "start" and start a web server:
