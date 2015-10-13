@@ -34,6 +34,7 @@ python -m SimpleHTTPServer
 I suggest you bookmark those or "pin" them!
 
 ## Files
+We will be working on two files in the [start](start) folder:
 
- * [registration.js](js/registration.js) (client registration)
- * [sw.js](sw.js) (worker)
+ * [registration.js](start/js/registration.js) (client registration)
+ * [sw.js](start/sw.js) (worker)
