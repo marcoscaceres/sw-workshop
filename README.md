@@ -30,7 +30,7 @@ In the terminal, got to "start" and start a web server:
 python -m SimpleHTTPServer
 ```
 
-**REMEMBER: All the caches are working against you trying to ruining your day.**
+**REMEMBER: All the caches are working against you trying to ruin your day.**
 
 ## Fire up browser 
 
