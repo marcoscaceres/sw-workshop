@@ -9,7 +9,7 @@
 //console.log("Hello, I'm the service worker!");
 
 // Let's start bringing in things we need
-importScripts("js/async.js");
+importScripts("js/lib/async.js");
 
 // Set up Service Worker tasks
 const SWTasks = {
